@@ -1,5 +1,5 @@
-#ifndef Morse_h
-#define Morse_h
+#ifndef SunFounderLineFollower_h
+#define SunFounderLineFollower_h
 
 class SunFounderLineFollower
 {
