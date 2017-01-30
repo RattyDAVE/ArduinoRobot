@@ -1,12 +1,9 @@
 #include <SunFounderLineFollower.h>
 
-
 int sensorbits;
-
 SunFounderLineFollower sflf();
 
 void setup(){
-
 }
 
 void loop(){
