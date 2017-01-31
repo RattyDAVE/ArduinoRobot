@@ -19,7 +19,11 @@ Ultrasonic Module HC-SR04 + 9G SG90 servo motor +  FPV dedicated nylon PTZ - ￡
 Library files
 
 Motor shield v2 - Adafruit Motor Shield V2 Libary
+
 SunFounder I2C Line Follower Module 8 Channel IR Sensor - No libary exists. I have created a simple one. (Included here and needs testing and I can optimise.)
+
 HX1838 Infrared Remote Control Module - https://github.com/z3t0/Arduino-IRremote
+
 Wheel Encoder HC-020K - See encoderTest.ino
+
 Ultrasonic Module HC-SR04 - http://playground.arduino.cc/Code/NewPing
