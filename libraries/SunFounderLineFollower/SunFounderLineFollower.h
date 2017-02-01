@@ -10,6 +10,7 @@ class SunFounderLineFollower
   public:
     SunFounderLineFollower();
     int readsensor();
+    int * getreadings();
   private:
     int _linSensor;
     unsigned char _data[16];
