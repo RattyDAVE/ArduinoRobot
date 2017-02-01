@@ -28,6 +28,7 @@ void loop(){
   sensorarray=sflf.getreadings();
   for (int i=0; i <= 16; i++){
       printBits(sensorarray[i]);
+      Serial.print('\t');
   }
   Serial.println("");
 }
