@@ -30,7 +30,7 @@ int * SunFounderLineFollower::getreadings()
   for (int i=0; i <= 16; i=i+2){
     _data[i] = Wire.read(); // receive a byte as character
     _data[i+1] = Wire.read(); // receive a byte as character
-    number[i / 2] = data[i] << 8 | data[i+1];
+    _linSensor[i / 2] = data[i] << 8 | data[i+1];
   }
   return _linSensor;
 }
