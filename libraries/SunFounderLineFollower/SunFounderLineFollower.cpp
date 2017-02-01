@@ -1,7 +1,6 @@
 #include "Arduino.h"
 #include "SunFounderLineFollower.h"
 #include <Wire.h>
-#define SENSOR_SENSITIVITY 127
 
 
 SunFounderLineFollower::SunFounderLineFollower()
@@ -9,7 +8,7 @@ SunFounderLineFollower::SunFounderLineFollower()
     Wire.begin();
 }
 
-int SunFounderLineFollower::readSensor()
+int SunFounderLineFollower::readsensor()
 {
   int _linSensor;
   unsigned char _data[16];

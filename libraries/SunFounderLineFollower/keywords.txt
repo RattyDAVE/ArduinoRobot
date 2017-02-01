@@ -1,2 +1,2 @@
 SunFounderLineFollower   KEYWORD1
-readSensor    KEYWORD2
+readsensor    KEYWORD2
