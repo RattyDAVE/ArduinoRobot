@@ -37,6 +37,16 @@ void loop(){
        Serial.print('0');
   }
   Serial.println(""); 
+  //if (byteprocessed = B00000000) NO LINE
+  //else if (byteprocessed = B11111111) T STOP
+  //else if (byteprocessed & B00000001) HARD RIGHT
+  //else if (byteprocessed & B00000010) MED RIGHT
+  //else if (byteprocessed & B00000100) SOFT RIGHT
+  //else if (byteprocessed & B00001000) Centre
+  //else if (byteprocessed & B00010000) Centre
+  //else if (byteprocessed & B00100000) SOFT LEFT
+  //else if (byteprocessed & B01000000) MED LEFT
+  //else if (byteprocessed & B10000000) HARD LEFT
 
 
 
