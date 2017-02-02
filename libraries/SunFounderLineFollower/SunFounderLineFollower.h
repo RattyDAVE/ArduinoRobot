@@ -2,18 +2,17 @@
 #define SunFounderLineFollower_h
 
 #ifndef SENSOR_SENSITIVITY
-#define SENSOR_SENSITIVITY 127
+#define SENSOR_SENSITIVITY 1024
 #endif
 
 class SunFounderLineFollower
 {
   public:
     SunFounderLineFollower();
-    int readsensor();
-    int * getreadings();
+    void davetest();
+    int * rawarray();
+    int byteprocessed(int);
   private:
-    int _linSensor;
-    unsigned char _data[16];
 };
 
 #endif
