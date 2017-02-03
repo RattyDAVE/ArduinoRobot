@@ -1,0 +1,42 @@
+########################################################
+# Syntax Coloring Map for RedBot Line Follower Bar     #
+########################################################
+# Class
+###################################################################
+
+SensorBar	KEYWORD1
+CircularBuffer	KEYWORD1
+
+###################################################################
+# Methods and Functions
+###################################################################
+
+begin	KEYWORD2
+getRaw	KEYWORD2
+getPosition	KEYWORD2
+getDensity	KEYWORD2
+setBarStrobe	KEYWORD2
+clearBarStrobe	KEYWORD2
+setInvertBits	KEYWORD2
+clearInvertBits	KEYWORD2
+reset	KEYWORD2
+debounceConfig	KEYWORD2
+debounceEnable	KEYWORD2
+enableInterrupt	KEYWORD2
+interruptSource	KEYWORD2
+configClock	KEYWORD2
+
+getElement	KEYWORD2
+pushElement	KEYWORD2
+averageLast	KEYWORD2
+recordLength	KEYWORD2
+
+###################################################################
+# Constants
+###################################################################
+
+RECEIVE_TIMEOUT_VALUE	LITERAL1
+LINEAR	LITERAL1
+LOGARITHMIC	LITERAL1
+INTERNAL_CLOCK	LITERAL1
+EXTERNAL_CLOCK	LITERAL1
