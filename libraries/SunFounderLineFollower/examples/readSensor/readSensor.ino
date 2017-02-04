@@ -15,7 +15,7 @@ void loop(){
   sflf.davetest();
   
   
-  //rawarry method 
+  //rawarray method 
   rawdata=sflf.rawarray();
 
   Serial.print("Raw \t\t");

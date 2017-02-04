@@ -32,13 +32,20 @@ int * SunFounderLineFollower::rawarray() {
   return raw;
 }
 
-int SunFounderLineFollower::byteprocessed(int SENSITIVITY) {
-  int probyte;
+int SunFounderLineFollower::byteprocessed(int s) {
+  int r = 0;
   Wire.requestFrom(9, 16);
-  for (int i=0; i <= 7; i++) {
-    if ( ( Wire.read() << 8 | Wire.read() ) > SENSITIVITY) bitSet(probyte,i);
-    else bitClear(probyte,i);
-  }
-  return probyte;
+  for (int i=0; i <= 7; i++) (( Wire.read() << 8 | Wire.read() ) > s)?r|=1<<i:r&=~(1<<i);
+  return r;
 }
 
+
+//int SunFounderLineFollower::byteprocessed(int s) {
+//  int rb = 0;
+//  Wire.requestFrom(9, 16);
+//  for (int i=0; i <= 7; i++) {
+//    //if ( ( Wire.read() << 8 | Wire.read() ) > s) rb |= 1 << i;
+//    ( Wire.read() << 8 | Wire.read() ) > s) ? rb |= 1 << i;   
+//  }
+//  return rb;
+//}
