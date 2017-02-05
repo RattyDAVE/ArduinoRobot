@@ -10,11 +10,11 @@ Clone 2017 Newest Professional Motor/Stepper/Servo/Robot Shield For Arduino v2 w
 
 SunFounder IIC I2C Line Follower Module 8 Channel Infrared IR Detection Tracking Sensor - ￡12.89 - https://www.aliexpress.com/item/8-Channel-High-Precision-Infrared-Detection-Tracking-Sensor-Moudle-For-Arduino-Raspberry-Pi-Car-Robot-TCRT5000/32714804808.html
 
-HX1838 Infrared Remote Control Module IR Receiver Module DIY Kit - £0.79 https://www.aliexpress.com/item/3-in-1-Remote-Control-Receiver-N-E-C-Coded-Infrared-Module-with-Female-to-Female/1370119606.html
+*OPTIONAL PHASE 2 -* HX1838 Infrared Remote Control Module IR Receiver Module DIY Kit - £0.79 https://www.aliexpress.com/item/3-in-1-Remote-Control-Receiver-N-E-C-Coded-Infrared-Module-with-Female-to-Female/1370119606.html
 
-HC-020K Double Speed Measuring Sensor Module with Photoelectric Encoders Kit - ￡2.26 - https://www.aliexpress.com/item/HC-020K-Double-Speed-Measuring-Sensor-Module-with-Photoelectric-Encoders-Kit-top/32453020060.html
+*OPTIONAL PHASE 2 -* HC-020K Double Speed Measuring Sensor Module with Photoelectric Encoders Kit - ￡2.26 - https://www.aliexpress.com/item/HC-020K-Double-Speed-Measuring-Sensor-Module-with-Photoelectric-Encoders-Kit-top/32453020060.html
 
-Ultrasonic Module HC-SR04 + 9G SG90 servo motor +  FPV dedicated nylon PTZ - ￡2.58 - https://www.aliexpress.com/item/1pcs-Ultrasonic-Module-HC-SR04-1pcs-9G-SG90-servo-motor-1pcs-FPV-dedicated-nylon-PTZ-for/32553190992.html
+*OPTIONAL PHASE 2 -* Ultrasonic Module HC-SR04 + 9G SG90 servo motor +  FPV dedicated nylon PTZ - ￡2.58 - https://www.aliexpress.com/item/1pcs-Ultrasonic-Module-HC-SR04-1pcs-9G-SG90-servo-motor-1pcs-FPV-dedicated-nylon-PTZ-for/32553190992.html
 
 ## Library files
 
