@@ -10,9 +10,24 @@ void setup(){
 }
 
 void loop(){
+	
+  //Should be all Zeros	
+  //sflf.calibrate_show();
+  
+  //Should have data
+  //sflf.calibrate();  
+  //sflf.calibrate_show();
+    
+  //Back to Zeros  
+  //sflf.calibrate_reset();
+  //sflf.calibrate_show();
 
-  // davetest method
-  sflf.davetest();
+  //Should have data.
+  sflf.calibrate();
+  sflf.calibrate_show();
+
+  // Selftest of raw data.
+  sflf.test();
   
   
   //rawarray method 
