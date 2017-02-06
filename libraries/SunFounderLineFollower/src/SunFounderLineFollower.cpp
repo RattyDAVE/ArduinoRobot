@@ -51,15 +51,18 @@ void SunFounderLineFollower::calibrate_show()
 
 void SunFounderLineFollower::calibrate_reset()
 {
-  	for (int i=0; i <= 7; i++) { 
-		cal_min[i]=0; 
-		cal_max[i]=0;
-	}    
+  	//for (int i=0; i <= 7; i++) { 
+	//	cal_min[i]=0; 
+	//	cal_max[i]=0;
+	//}
+        
+        cal_min={0}; 
+	cal_max={0};
  }
 
 void SunFounderLineFollower::test()
 {
-  Serial.print("davetest \t"); 
+  Serial.print("test \t"); 
   int  r[8];
   unsigned char _data[16];
   int reqlen=Wire.requestFrom(9, 16);    // request 16 bytes from slave device #9
