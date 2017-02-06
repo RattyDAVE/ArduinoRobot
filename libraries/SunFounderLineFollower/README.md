@@ -11,7 +11,7 @@ Populates an array with the reading from the module and retuens the pointer addr
 Returns a byte with 8bits. Each with a bit set for line detection.
     
 ###void calibrate();
-Calibrate the device. (reads the sensors 100 times ange gets high and low.)
+Calibrate the device. (reads the sensors 100 times and gets high and low.)
 
 ###void calibrate_show();
 Show the calibration high and low.
