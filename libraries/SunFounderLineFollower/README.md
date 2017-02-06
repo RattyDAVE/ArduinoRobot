@@ -1,6 +1,6 @@
-* SunFounder Line Follower Module.
+# SunFounder Line Follower Module.
 
-** Methods
+# Methods
 void test();
 
 Test of Line Followe module. This prints out the readings.
