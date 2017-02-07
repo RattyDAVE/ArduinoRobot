@@ -4,7 +4,7 @@
 class WheelEncoder
 {
   public:
-    WheelEncoder();
+    WheelEncoder(int pin);
 	void count();
 	void reset();
 	int get();
