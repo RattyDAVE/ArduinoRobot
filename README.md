@@ -66,15 +66,15 @@ http://junkplusarduino.blogspot.co.uk/p/robot-2.html
 
 | Digital | Analog | Function | Notes |
 | ------- | ------ | -------- |-----------------------|
-D0|RX    Serial 
-D1|TX    Serial
-D2|INT0  Not used - Reserved - Wheel Encoder (L)
-D3|INT1  Not used - Reserved - Wheel Encoder (R)
-D4
-D5
-D6
-D7
-D8
+D0||RX|Serial 
+D1||TX|Serial
+D2||INT0|Not used - Reserved - Wheel Encoder (L)
+D3||INT1|Not used - Reserved - Wheel Encoder (R)
+D4|
+D5|
+D6|
+D7|
+D8|
 D9|||Not used - Reserved - MotorShield Servo S2
 D10||SS|Not used - Reserved - MotorShield Servo S1
 D11||MOSI
