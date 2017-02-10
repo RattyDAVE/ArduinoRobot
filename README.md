@@ -83,3 +83,9 @@ D17|A3
 D18|A4|SDA|Shared by MotorShield and Line Sensor (i2c) 
 D19|A5|SCK|Shared by MotorShield and Line Sensor (i2c)
 
+## I2C Bus Address
+| Address | Module |
+|---|---|
+0x60|Motorshield
+0x9|Line Sensor
+
