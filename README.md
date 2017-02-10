@@ -61,3 +61,26 @@ http://junkplusarduino.blogspot.co.uk/p/robot-2.html
 - Using the Line sensor follow a straight line and stop when the line ends within the stop zone that is 15cm. QUICKEST wins.
 - Same as 4) but with corners. (Radius of no more than 15cm). QUICKEST wins (within 15cm stop zone).
 
+## Pins Used.
+
+D0      RX    Serial 
+D1      TX    Serial
+D2      INT0  Not used - Reserved - Wheel Encoder (L)
+D3      INT1  Not used - Reserved - Wheel Encoder (R)
+D4
+D5
+D6
+D7
+D8
+D9            Not used - Reserved - MotorShield Servo S2
+D10     SS    Not used - Reserved - MotorShield Servo S1
+D11     MOSI
+D12     MISO
+D13     SCK
+D14 A0
+D15 A1
+D16 A2
+D17 A3
+D18 A4  SDA   Shared by MotorShield and Line Sensor (i2c) 
+D19 A5  SCK   Shared by MotorShield and Line Sensor (i2c)
+
