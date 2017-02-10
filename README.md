@@ -65,7 +65,6 @@ http://junkplusarduino.blogspot.co.uk/p/robot-2.html
 
 
 | Digital | Analog | Function | Notes |
-| ------- | ------ | -------- |-----------------------|
 D0||RX|Serial 
 D1||TX|Serial
 D2||INT0|Not used - Reserved - Wheel Encoder (L)
