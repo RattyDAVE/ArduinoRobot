@@ -79,7 +79,7 @@ D9|||Not used - Reserved - MotorShield Servo S2
 D10||SS|Not used - Reserved - MotorShield Servo S1
 D11||MOSI
 D12||MISO
-D13|SCK
+D13||SCK
 D14|A0
 D15|A1
 D16|A2
