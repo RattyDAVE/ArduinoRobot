@@ -5,7 +5,7 @@
 Test of Line Followe module. This prints out the readings.
 
 ###int * rawarray();
-Populates an array with the reading from the module and retuens the pointer address.
+Populates an array with the reading from the module and returns the pointer address.
 
 ###int byteprocessed(int);
 Returns a byte with 8bits. Each with a bit set for line detection.
@@ -18,6 +18,3 @@ Show the calibration high and low.
 
 ###void calibrate_reset();
 Clear the calibration data.
-
-
- 
