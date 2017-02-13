@@ -4,14 +4,14 @@
 class WheelEncoder
 {
   public:
-    WheelEncoder(int pin);
+    WheelEncoder( void );
 	void count();
 	void reset();
 	int get();
 	void direction(bool d);
   private:
-    int  encoderValue;
-    bool direction;
+    int encoderValue;
+    boolean dir;
 };
 
 #endif

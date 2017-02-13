@@ -33,14 +33,13 @@ void loop() {
       encoderValue_A = 0;
       encoderValue_B = 0;
     }
+  }
 }
 
 void countA() {
-
   encoderValue_A++;  
 }
 
 void countB() {
-
   encoderValue_B++;  
 }
