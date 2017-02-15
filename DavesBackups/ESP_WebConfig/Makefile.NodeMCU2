@@ -1,0 +1,4 @@
+ARDUINO_VARIANT    = nodemcuv2
+SERIAL_PORT = /dev/nodemcuv2
+include $(HOME)/Esp8266-Arduino-Makefile/esp8266Arduino.mk
+

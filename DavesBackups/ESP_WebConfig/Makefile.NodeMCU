@@ -1,0 +1,5 @@
+ARDUINO_VARIANT    = nodemcu
+SERIAL_PORT = /dev/nodemcu
+#ARDUINO_LIBS = ESP8266WiFi Ticker ESP8266WebServer  
+#USER_LIBS = ArduinoJson
+include $(HOME)/Esp8266-Arduino-Makefile/esp8266Arduino.mk

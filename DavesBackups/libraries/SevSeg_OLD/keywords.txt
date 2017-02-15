@@ -1,0 +1,4 @@
+SevSeg	KEYWORD1
+NewNum	KEYWORD2
+PrintOutput	KEYWORD2
+Brightness	KEYWORD2
