@@ -56,7 +56,7 @@ D6|
 D7|
 D8|
 D9|||Not used - Reserved - MotorShield Servo S2
-D10||SS|Not used - Reserved - MotorShield Servo S1
+D10||SS|IR Receiver - (MotorShield Servo S1 NOT USED)
 D11||MOSI
 D12||MISO
 D13||SCK
