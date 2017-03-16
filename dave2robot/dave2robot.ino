@@ -5,24 +5,24 @@
   | ------- | ------ | -------- | ----- |
   D0        |        |RX        |Serial
   D1        |        |TX        |Serial
-  D2        ||INT0   |Not used - Reserved - Wheel Encoder (L)
-  D3        ||INT1   |Not used - Reserved - Wheel Encoder (R)
+  D2        ||INT0   |          |Not used - Reserved - Wheel Encoder (L)
+  D3        ||INT1   |          |Not used - Reserved - Wheel Encoder (R)
   D4        |
   D5        |
   D6        |
   D7        |
   D8        |
-  D9        |        |          |MotorShield Servo S2
-  D10       |        |SS        |IR Receiver - (MotorShield Servo S1 NOT USED)
+  D9        |        |          |MotorShield Servo S2 - H
+  D10       |        |SS        |MotorShield Servo S1 - V
   D11       |        |MOSI
   D12       |        |MISO
   D13       |        |SCK
-  D14       |A0
+  D14       |A0      |          | IR Receiver
   D15       |A1
   D16       |A2
   D17       |A3
-  D18       |A4      |SDA       |Shared by MotorShield and Line Sensor (i2c)
-  D19       |A5      |SCK       |Shared by MotorShield and Line Sensor (i2c)
+  D18       |A4      |SDA       |Shared by MotorShield, Line Sensor (i2c) and OLED
+  D19       |A5      |SCK       |Shared by MotorShield, Line Sensor (i2c) and OLED
 
   ## I2C Bus Address
   | Address | Module |
@@ -32,7 +32,7 @@
   0x3c      |Display
 */
 
-#define DEF_IR_PIN 10
+#define DEF_IR_PIN A0
 #define DEF_SERVO_PIN 9
 
 // MOTOR
