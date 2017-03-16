@@ -10,17 +10,17 @@ void setup() {
 void loop() {
   int byteprocessed = sflf.byteprocessed(sensitivity);
 
-  if ( (bitRead(byteprocessed, 0)) || (bitRead(byteprocessed, 1)) || (bitRead(byteprocessed, 2)) ) {
+  if ( bitRead(byteprocessed, 0) || bitRead(byteprocessed, 1) || bitRead(byteprocessed, 2) ) {
   //Right Turn
   motorRight();
   }
 
-  else if ( (bitRead(byteprocessed, 3)) || (bitRead(byteprocessed, 4)) ) {
+  else if ( bitRead(byteprocessed, 3) || bitRead(byteprocessed, 4) ) {
   //Forward
   motorForward();
   }
 
-  else if ( (bitRead(byteprocessed, 5)) || (bitRead(byteprocessed, 6)) || (bitRead(byteprocessed, 7)) ){
+  else if ( bitRead(byteprocessed, 5) || bitRead(byteprocessed, 6) || bitRead(byteprocessed, 7) ){
   //Left Turn
   motorLeft();
   }
