@@ -1,37 +1,13 @@
+Welcome to the ArduinoRobot wiki!
 # ArduinoRobot
 
 ## Items Ordered.
 
-See https://github.com/RattyDAVE/ArduinoRobot/wiki/Items-Ordered
+https://github.com/RattyDAVE/ArduinoRobot/wiki/Items-Ordered
 
 ## Library files
 
-See https://github.com/RattyDAVE/ArduinoRobot/wiki/Library-files
-
-## Notes
-
-Motorshield v2
-https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview
-
-Infrared Remote Control 
-https://github.com/z3t0/Arduino-IRremote/wiki
-
-Sonar
-http://playground.arduino.cc/Code/NewPing
-
-Line Follower
-https://www.sunfounder.com/wiki/index.php?title=Line_Follower_Module
-https://learn.sparkfun.com/tutorials/sparkfun-line-follower-array-hookup-guide
-
-
-Basics of what you need! (won't work directly!)
-http://samvrit.tk/tutorials/pid-control-arduino-line-follower-robot/?i=1
-
-Maybe can customise this https://learn.sparkfun.com/tutorials/sparkfun-line-follower-array-hookup-guide
-http://www.techbitar.com/fast-line-following-robot.html
-https://diyhacking.com/projects/DIY_LineFollower.ino
-http://junkplusarduino.blogspot.co.uk/p/robot-2.html
-
+https://github.com/RattyDAVE/ArduinoRobot/wiki/Library-files
 
 ## Milestones
 
@@ -43,33 +19,9 @@ http://junkplusarduino.blogspot.co.uk/p/robot-2.html
 
 ## Pins Used.
 
-
-| Digital | Analog | Function | Notes |
-| ------- | ------ | -------- | ----- |
-D0||RX|Serial 
-D1||TX|Serial
-D2||INT0|Not used - Reserved - Wheel Encoder (L)
-D3||INT1|Not used - Reserved - Wheel Encoder (R)
-D4|
-D5|
-D6|
-D7|
-D8|
-D9|||Not used - Reserved - MotorShield Servo S2
-D10||SS|IR Receiver - (MotorShield Servo S1 NOT USED)
-D11||MOSI
-D12||MISO
-D13||SCK
-D14|A0
-D15|A1
-D16|A2
-D17|A3
-D18|A4|SDA|Shared by MotorShield and Line Sensor (i2c) 
-D19|A5|SCK|Shared by MotorShield and Line Sensor (i2c)
+https://github.com/RattyDAVE/ArduinoRobot/wiki/Pins-Used
 
 ## I2C Bus Address
-| Address | Module |
-|---|---|
-0x60|Motorshield
-0x9|Line Sensor
+
+https://github.com/RattyDAVE/ArduinoRobot/wiki/I2C-Bus-Address
 
