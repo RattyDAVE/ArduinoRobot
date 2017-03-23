@@ -18,3 +18,6 @@ Show the calibration high and low.
 
 ### void calibrate_reset();
 Clear the calibration data.
+
+## Wiki page from Sunfounder
+http://wiki.sunfounder.cc/index.php?title=Line_Follower_Module
