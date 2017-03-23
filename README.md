@@ -4,6 +4,12 @@
 ## For issues and questions please raise the question here.
 https://github.com/RattyDAVE/ArduinoRobot/issues
 
+## Quick install instructions.
+```
+git clone https://github.com/RattyDAVE/ArduinoRobot.git ~/ArduinoRobot
+cp -R ~/ArduinoRobot ~/Arduino
+```
+
 ## For the Sunfounder Line Follower Library 
 https://github.com/RattyDAVE/ArduinoRobot/tree/master/libraries/SunFounderLineFollower
 
